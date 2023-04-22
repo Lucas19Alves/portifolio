@@ -11,8 +11,8 @@ Projetos Destacados:
 - Projeto 1 - TecBlog
 Este projeto foi desenvolvido com HTML5 e CSS3, e é um exemplo de um blog de tecnologia onde os usuários podem visualizar e comentar em postagens relacionadas ao mundo da tecnologia. Ele inclui uma interface personalizada, formulários para envio de comentários e categorias para as notícias.
 
-- Projeto 2 - Anna Bella
-Este projeto foi desenvolvido com HTML5 e CSS3, e é um exemplo de uma página de modelo fictícia chamada Anna Bella. Ele inclui uma interface de usuário personalizada e responsiva, com seções dedicadas a informações pessoais, portfólio e contato.
+- Projeto 2 - Loja de móveis
+O projeto consiste em desenvolver uma página de loja de móveis fictícia para a venda de móveis e decorações. A página terá um layout moderno e agradável, com uma paleta de cores suave e predominante em tons de azul pastel, buscando transmitir tranquilidade e serenidade ao usuário.
 
 - Projeto 3 - Unes
 Este projeto foi desenvolvido com HTML5 e CSS3, e é um exemplo de uma página da universidade fictícia chamada Unes. Ele inclui uma interface de usuário personalizada e responsiva, com seções dedicadas a informações sobre a universidade, cursos oferecidos e contato.
