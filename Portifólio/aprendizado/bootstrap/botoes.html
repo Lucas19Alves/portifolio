@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--tag meta bootstrap-->
+  <title>Bootstrap demo</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"> <!--css bootstrap-->
+
+  <script src="js/bootstrap.bundle.min.js"></script> <!--script bootstrap-->
+</head>
+
+<body>
+
+  <!-- 
+  As classes de botão podem ser usadas em elementos <a>, <button> ou <input>
+  Use a classe .btn-lg para botões grandes ou .btn-sm para botões pequenos
+  Exemplos dos botões padrões:
+  -->
+  <div class="container mt-3">
+    <h2>Button Styles</h2>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-link">Link</button>      
+  </div>
+
+  <br><br><br>
+
+  <!-- Exemplos dos botões com contorno e efeito hover-->
+  <div class="container mt-3">
+    <h2>Button Outline</h2>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <button type="button" class="btn btn-outline-light text-dark">Light</button>
+  </div>
+
+  <br><br><br>
+
+  <!--Exemplo de botões a nivel de bloco para ocupar todo o espaço da div
+  Se você tiver muitos botões em nível de bloco, poderá controlar o espaço entre eles com a classe .gap-*
+  -->
+  <div class="container mt-3">
+    <h2>Block Level Buttons</h2>
+    <p>To create a block level button that spans the entire width of the parent element, use the .d-grid "helper" class on the parent element:</p>
+    <div class="d-grid">
+      <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <!-- Exemplos de botões com estado de ativo ou desativado -->
+  <div class="container mt-3">
+    <h2>Button States</h2>
+    <button type="button" class="btn btn-primary">Primary Button</button>
+    <button type="button" class="btn btn-primary active">Active Primary</button>
+    <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+    <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+  </div>
+
+  <br><br><br>
+
+  <!--Exemplos de botões de carregamento -->
+  <div class="container mt-3">
+    <h2>Spinner Buttons</h2>
+    <p>Add spinners to buttons:</p>
+                                          
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+    </button>
+  
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+      Loading..
+    </button>
+    
+    <button class="btn btn-primary" disabled>
+      <span class="spinner-border spinner-border-sm"></span>
+      Loading..
+    </button>
+    
+    <button class="btn btn-primary" disabled>
+      <span class="spinner-grow spinner-grow-sm"></span>
+      Loading..
+    </button>
+  </div>
+
+  <br><br><br><br><br><br>
+
+  <!-- ABAIXO EXEMPLOS DE BOTÕES AGRUPADOS -->
+  <!--use class .btn-group-lg para um grupo de botões grande ou .btn-group-sm para um grupo de botões pequenos:-->
+  <!-- use .btn-group-vertical para agrupa-los verticalmente-->
+
+  <div class="container mt-3">
+    <h2>Button Group</h2>
+    <p>The .btn-group class creates a button group:</p>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <!-- Botões agrupados com menu suspenso -->
+  <div class="container mt-3">
+    <h2>Nesting Button Groups</h2>
+    <p>Nest button groups to create dropdown menus:</p>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Tablet</a></li>
+          <li><a class="dropdown-item" href="#">Smartphone</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+
+
+</body>
+
+</html>
+
+

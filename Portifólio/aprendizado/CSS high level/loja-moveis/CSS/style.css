@@ -1,0 +1,152 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .conteudo {
+    display: flex;
+    margin: 20px;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #add8e6;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Estilos do menu vertical */
+  nav {
+    flex: 0 0 200px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    padding: 10px;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  nav li:last-child {
+    margin-bottom: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Estilos do painel de produtos */
+  .painel-produtos {
+    flex: 0 0 200px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  .painel-produtos h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .painel-produtos ul {
+    padding: 10px;
+  }
+  
+  .painel-produtos li {
+    margin-bottom: 10px;
+  }
+  
+  .painel-produtos li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .painel-produtos a {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .painel-produtos a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Estilos dos produtos em destaque */
+  .produtos-destaque {
+    flex: 1;
+  }
+  
+  .produtos-destaque h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .produtos-destaque ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .produtos-destaque li {
+    flex-basis: 30%;
+    margin-right: 20px;
+  }
+  
+  .produtos-destaque img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .produtos-destaque h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .produtos-destaque p {
+    margin: 10px 0;
+  }
+  

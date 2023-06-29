@@ -1,0 +1,86 @@
+.menu-vertical {
+  width: 200px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-vertical ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-vertical li {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.menu-vertical a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.menu-vertical a:hover {
+  background-color: #e6e6e6;
+}
+
+.menu-vertical a.ativo {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* MENU NA HORIZONTAL */
+
+.menu-horizontal {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-horizontal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-horizontal li {
+  padding: 10px;
+  border-right: 1px solid #e6e6e6;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.menu-horizontal li:last-child {
+  border-right: none;
+}
+
+.menu-horizontal button {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  pointer-events: all;
+}
+
+.menu-horizontal button:hover {
+  background-color: #e6e6e6;
+}
+
+.menu-horizontal button.ativo {
+  background-color: #007bff;
+  color: #fff;
+}

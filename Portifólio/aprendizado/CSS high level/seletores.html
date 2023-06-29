@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exemplo de Seletores CSS</title>
+  <style>
+    /* Seleciona todos os elementos */
+    * {
+      color: red;
+    }
+
+    /* Seleciona elementos com a classe "destaque" */
+    .destaque {
+      font-weight: bold;
+    }
+
+    /* Seleciona o elemento com o ID "cabecalho" */
+    #cabecalho {
+      background-color: blue;
+    }
+
+    /* Seleciona todos os elementos <p> */
+    p {
+      font-size: 16px;
+    }
+
+    /* Seleciona o primeiro elemento <p> */
+    p:first-of-type {
+      color: green;
+    }
+
+    /* Seleciona todos os elementos <a> com o atributo href começando com "http" */
+    a[href^="http"] {
+      text-decoration: underline;
+    }
+
+    /* Seleciona todos os elementos <a> com o atributo href terminando com ".pdf" */
+    a[href$=".pdf"] {
+      color: purple;
+    }
+
+    /* Seleciona todos os elementos <a> com o atributo href contendo "google" */
+    a[href*="google"] {
+      color: blue;
+    }
+
+    /* Seleciona o elemento <li> que está dentro de um elemento <ul> */
+    ul>li {
+      list-style-type: circle;
+    }
+
+    /* Seleciona o último elemento filho de um elemento <div> */
+    div:last-child {
+      border: 1px solid black;
+    }
+
+    /* Seleciona todos os elementos <input> que estão desabilitados */
+    input:disabled {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="cabecalho">Exemplo de Seletores CSS</h1>
+  <p>Este é um parágrafo simples.</p>
+  <p class="destaque">Este parágrafo é um pouco mais importante.</p>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <div>
+    <p>Este é um parágrafo dentro de uma div.</p>
+    <p>Este é outro parágrafo dentro da mesma div.</p>
+  </div>
+  <input type="text" disabled="disabled" value="Este campo está desabilitado." />
+  <a href="http://www.google.com">Link para o Google</a>
+  <a href="http://www.example.com/documento.pdf">Link para um PDF</a>
+  <a href="http://www.bing.com">Link para o Bing</a>
+</body>
+
+</html>

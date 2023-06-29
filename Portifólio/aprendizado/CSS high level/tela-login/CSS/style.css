@@ -1,0 +1,76 @@
+.login-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom right, #4b6cb7, #182848);
+    filter: blur(5px);
+    z-index: -1;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4b6cb7;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #182848;
+  }
+  

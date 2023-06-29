@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--tag meta bootstrap-->
+  <title>Bootstrap demo</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"> <!--css bootstrap-->
+
+  <script src="js/bootstrap.bundle.min.js"></script> <!--script bootstrap-->
+</head>
+
+<body>
+
+  <div class="container mt-3">
+    <h2>Alinhar imagens</h2>
+    <p>Use as classes float para alinhar a imagem a esquerda ou a direita:</p> 
+    <img src="paris.jpg" class="float-start" alt="Paris" width="304" height="236"> 
+    <img src="paris.jpg" class="float-end" alt="Paris" width="304" height="236"> 
+  </div>
+
+  <br><br>
+
+  <div class="container mt-3" style="clear: both;">
+    <h2>Imagem centralizada</h2>
+    <p>Para centralizar a imagem utilize as classes .mx-auto (margin:auto) e .d-block (display:block):</p> 
+    <img src="paris.jpg" class="mx-auto d-block" style="width:50%"> 
+  </div>
+
+  <br><br>
+
+  <div class="container mt-3">
+    <h2>Imagem fluida</h2>
+    <p>A classe .img-fluid deixa a imagem com a escala em fluidez com a janela:</p>
+    <img class="img-fluid" src="paris.jpg" alt="New York" width="1100" height="500"> 
+  </div>
+
+</body>
+
+</html>

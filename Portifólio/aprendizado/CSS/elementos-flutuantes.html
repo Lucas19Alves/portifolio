@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Elementos flutuantes</title>
+
+	<style type="text/css">
+		body{
+			background: #f4f4f4;
+		}
+		#principal {
+			width: 920px;
+			/* left, right, none */
+		}
+		.noticia{
+			background: #e5e5e5;
+			padding: 5px;
+			width: 280px;
+			margin: 8px;
+			float: left;
+		}
+		.imagem-galeria{
+			background: white;
+			width: 265px;
+			padding: 5px;
+			margin: 15px;
+			float: left;
+		}
+		.clear {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<h1>Exemplos elementos flutuantes</h1>
+
+	<div id="principal">
+
+		<div>
+			<div class="noticia">
+				<h2>Noticia texto especial 1</h2>
+				<p>
+					Aqui temos claramente um breve paragrafo sobre a noticia/texto.
+				</p>
+				<a href="">Veja mais</a>
+			</div>
+		</div>
+
+		<div id="conteudo1">
+			<div class="noticia">
+				<h2>Noticia texto especial 2</h2>
+				<p>
+					Aqui temos claramente um breve paragrafo sobre a noticia/texto.
+				</p>
+				<a href="">Veja mais</a>
+			</div>
+		</div>
+
+		<div id="conteudo1">
+			<div class="noticia">
+				<h2>Noticia texto especial 3</h2>
+				<p>
+					Aqui temos claramente um breve paragrafo sobre a noticia/texto.
+				</p>
+				<a href="">Veja mais</a>
+			</div>
+
+	</div>
+
+	<div class="clear">
+		
+		<div class="imagem-galeria">
+			<img src="imagens/imagem1.png">
+			<p>Noticia da imagem acima</p>
+		</div>
+		<div class="imagem-galeria">
+			<img src="imagens/imagem2.png">
+			<p>Noticia da imagem acima</p>
+		</div>
+		<div class="imagem-galeria">
+			<img src="imagens/imagem3.png">
+			<p>Noticia da imagem acima</p>
+		</div>
+		<div class="imagem-galeria">
+			<img src="imagens/imagem4.png">
+			<p>Noticia da imagem acima</p>
+		</div>
+		<div class="imagem-galeria">
+			<img src="imagens/imagem5.png">
+			<p>Noticia da imagem acima</p>
+		</div>
+
+	</div>
+	</div>
+
+
+	<! -------------------RODAPÉ---------------------->
+<div class="clear">
+	<hr>
+
+	<h2>Veja abaixo exemplos de conteúdos CSS</h2>
+
+	<tr>
+		<td>
+		<a href="index.html"><input type="button" value="Outros exemplos"></a>
+		</td>
+	</tr>
+	<br><br>
+	</div>
+</body>
+</html>
